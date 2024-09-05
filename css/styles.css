@@ -10867,9 +10867,10 @@ p.lead {
   font-size: 1.5rem;
 }
 
+/* Ensure styles are applied correctly */
 #sideNav {
-  padding-left: 0;
-  padding-right: 0;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
   text-align: center;
   position: fixed;
   top: 0;
@@ -10879,19 +10880,24 @@ p.lead {
   flex-direction: column;
   width: 17rem;
   height: 100vh;
-  z-index: 1; /* Ensure the sidebar stays on top */
+  z-index: 1050; /* Ensure the sidebar stays on top of other elements */
   background-color: #343a40; /* Ensure background color matches */
+  transition: right 0.3s ease; /* Add a transition for smoother effect */
 }
+
+/* Ensure content within the sidebar is aligned correctly */
 #sideNav .navbar-brand {
   display: flex;
   margin: auto auto 0;
   padding: 0.5rem;
 }
+
 #sideNav .navbar-brand .img-profile {
   max-width: 10rem;
   max-height: 10rem;
   border: 0.5rem solid rgba(255, 255, 255, 0.2);
 }
+
 #sideNav .navbar-collapse {
   display: flex;
   align-items: flex-start;
@@ -10899,13 +10905,16 @@ p.lead {
   width: 100%;
   margin-bottom: auto;
 }
+
 #sideNav .navbar-collapse .navbar-nav {
   flex-direction: column;
   width: 100%;
 }
+
 #sideNav .navbar-collapse .navbar-nav .nav-item {
   display: block;
 }
+
 #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
   display: block;
 }
@@ -10918,7 +10927,7 @@ p.lead {
     left: auto;
     width: 100%;
     height: auto;
-    z-index: 1;
+    z-index: 1050;
   }
   /* #sideNav .navbar-brand {
     display: flex;
