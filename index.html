@@ -16,21 +16,22 @@
         <link href="css/styles.css" rel="stylesheet">
     </head>
     <body id="page-top">
-        <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav" aria-label="Main Navigation">
+        <!-- Navigation - make the color purple-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
             <a class="navbar-brand js-scroll-trigger" href="#page-top">
                 <span class="d-block d-lg-none">Walker Todd</span>
                 <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/file.jpg" alt="..." /></span>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
+
                 <ul class="navbar-nav">
+                    <h3 class="mb-5">Walker Todd</h3>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">Projects</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Interests</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards">Awards</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Interests/Campus Involvement</a></li>
                 </ul>
             </div>
         </nav>
@@ -43,57 +44,80 @@
                 </div>
             </section>
             <!-- About-->
+<!-- About -->
             <section class="resume-section" id="about">
-                <div class="resume-section-content">
+                <div class="resume-section-content text-center">
                     <h1 class="mb-0">
                         Walker
                         <span class="text-primary">Todd</span>
                     </h1>
-                    <div class="subheading mb-5">
+                    <div class="subheading mb-4">
                         3031 Ivy Street · Waynesboro, VA 22980 · (540) 430-7532 ·
                         <a href="mailto:walkertodd03@gmail.com">walkertodd03@gmail.com</a>
                     </div>
-                    <a href="assets/resume/Walker Todd - CS Resume.pdf" download="WalkerToddResume.pdf">Download Resume</a>
-                    <p class="lead mb-5">Hi, I am a Computer Science major and a robotics minor at James Madison University, passionate about software development and robotics.</p>
-                    <div class="social-icons">
-                        <a class="social-icon" href="assets/resume/Walker Todd - CS Resume.pdf" download="WalkerToddResume.pdf"><i class="fas fa-file-download"></i></a>
-                        <a class="social-icon" href="https://www.linkedin.com/in/walker-todd/"><i class="fab fa-linkedin-in"></i></a>
-                        <a class="social-icon" href="https://github.com/WalkerHTodd"><i class="fab fa-github"></i></a>
-                    </div>
-                    <!-- Adding my education to the same main info section-->
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
+                    <a href="assets/resume/Walker Todd - CS Resume.pdf" download="WalkerToddResume.pdf" class="btn btn-primary mb-4">Download Résumé</a>
+                    <p class="lead mb-4">Hi, I am a Computer Science major and a robotics minor at James Madison University, passionate about software development and robotics.</p>
+                    
+                    <!-- Education Section -->
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-4">
+                        <div class="flex-grow-1 text-center">
                             <h3 class="mb-0">James Madison University</h3>
-                            <div class="subheading mb-3">Bachelor’s in Computer Science</div>
-                            <p>GPA: 3.15</p>
+                            <div class="subheading mb-2">Bachelor’s in Computer Science</div>
+                            <span class="text-primary h5">2021 - 2025</span>
+                            <p class="text-secondary">GPA: 3.15</p>
+                        </div>
+                        <div class="flex-shrink-0 align-self-end">
+                    </div>
                 </div>
-                <div class="flex-shrink-0"><span class="text-primary">2021 - 2025</span></div>
-            </div>
-            </section>
+
+                <!-- Social Icons -->
+                <div class="social-icons mt-4">
+                    <a class="social-icon" href="assets/resume/Walker Todd - CS Resume.pdf" download="WalkerToddResume.pdf" title="Download Resume">
+                        <i class="fas fa-file-download"></i>
+                    </a>
+                    <a class="social-icon" href="https://www.linkedin.com/in/walker-todd/" title="LinkedIn Profile">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a class="social-icon" href="https://github.com/WalkerHTodd" title="GitHub Profile">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+                </div>
+                </section>
+
             <hr class="m-0" />
-            <!-- Experience -->
+          <!-- Experience -->
             <section class="resume-section" id="experience">
                 <div class="resume-section-content">
-                    <h2 class="mb-5">Experience</h2>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <h2 class="mb-5 text-center">Experience</h2>
+                    <!-- Undergraduate Researcher -->
+                    <div class="experience-item d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
                             <h3 class="mb-0">Undergraduate Researcher</h3>
                             <div class="subheading mb-3">JMU, GMU</div>
                             <p>Collaborated with a multidisciplinary team to develop and test an autonomous golf cart (JACart 2), focusing on sensor integration and ROS2-based navigation. Implemented a UI front and backend system and consolidated the project in Docker. Conducted extensive testing and data analysis, resulting in a successful demonstration.</p>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">May 2024 - August 2024</span></div>
+                        <div class="flex-shrink-0 align-self-end">
+                            <span class="text-primary h5">May 2024 - August 2024</span>
+                        </div>
                     </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+
+                    <!-- Stocker -->
+                    <div class="experience-item d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
                             <h3 class="mb-0">Stocker</h3>
                             <div class="subheading mb-3">Walmart</div>
                             <p>Collaborated with a team to efficiently stock and organize merchandise. Assisted customers with locating products, enhancing customer satisfaction.</p>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">May 2021 - Present</span></div>
+                        <div class="flex-shrink-0 align-self-end">
+                            <span class="text-primary h5">May 2021 - Present</span>
+                        </div>
                     </div>
+                    
                 </div>
             </section>
-        <hr class="m-0" />
+            <hr class="m-0" />
+
            <!-- Projects Section -->
            <section class="resume-section" id="projects">
             <div class="resume-section-content">
@@ -106,7 +130,7 @@
                             <img src="assets/img/jacart.jpg" class="card-img-top" alt="Screenshot of JACart 2">
                             <div class="card-body">
                                 <h5 class="card-title">JACart 2</h5>
-                                <p class="card-text">Developed an autonomous golf cart with sensor integration and ROS2 navigation.</p>
+                                <p class="card-text">Designed and implemented an autonomous golf cart equipped with advanced sensor integration and navigation using ROS2, enabling efficient and safe navigation in various environments.</p>
                                 <a href="https://github.com/JACart2" class="btn btn-primary" target="_blank">View on GitHub</a>
                             </div>
                         </div>
@@ -117,7 +141,7 @@
                             <img src="assets/img/jmdb.png" class="card-img-top" alt="Screenshot of Portfolio Project">
                             <div class="card-body">
                                 <h5 class="card-title">James Madison Database </h5>
-                                <p class="card-text">Created a responsive portfolio website using HTML, CSS, and JavaScript.</p>
+                                <p class="card-text">Developed an IMDb clone that utilizes the IMDb API to display movie information, and actor infromation, featuring a responsive design built with Java framework.</p>
                                 <a href="https://github.com/WalkerHTodd/jmdb" class="btn btn-primary" target="_blank">View on GitHub</a>
                             </div>
                         </div>
@@ -137,35 +161,127 @@
             </div>
         </section>
         <hr class="m-0" />
-           <!-- Involvement Section -->
-           <section class="resume-section" id="involvement">
+        <!-- Skills -->
+        <section class="resume-section" id="skills">
             <div class="resume-section-content">
-                <h2 class="mb-5">Campus Involvement</h2>
-                <ul>
-                    <li>Young Life</li>
-                    <li>Robotics Club</li>
-                    <li>Competitive Programming Team</li>
-                </ul>
+                <h2 class="mb-5 text-center">Skills</h2>
+                <div class="row">
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100 text-center">
+                            <div class="card-body">
+                                <i class="fab fa-java fa-2x mb-3"></i>
+                                <h5 class="card-title">Java</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100 text-center">
+                            <div class="card-body">
+                                <i class="fab fa-python fa-2x mb-3"></i>
+                                <h5 class="card-title">Python</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100 text-center">
+                            <div class="card-body">
+                                <i class="fab fa-html5 fa-2x mb-3"></i>
+                                <h5 class="card-title">HTML</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100 text-center">
+                            <div class="card-body">
+                                <i class="fab fa-docker fa-2x mb-3"></i>
+                                <h5 class="card-title">Docker</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100 text-center">
+                            <div class="card-body">
+                                <i class="fab fa-js-square fa-2x mb-3"></i>
+                                <h5 class="card-title">JavaScript</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100 text-center">
+                            <div class="card-body">
+                                <i class="fab fa-github fa-2x mb-3"></i>
+                                <h5 class="card-title">GitHub</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100 text-center">
+                            <div class="card-body">
+                                <i class="fab fa-ruby fa-2x mb-3"></i>
+                                <h5 class="card-title">Ruby</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100 text-center">
+                            <div class="card-body">
+                                <i class="fab fa-haskell fa-2x mb-3"></i>
+                                <h5 class="card-title">Haskell</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100 text-center">
+                            <div class="card-body">
+                                <i class="fab fa-rust fa-2x mb-3"></i>
+                                <h5 class="card-title">Rust</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100 text-center">
+                            <div class="card-body">
+                                <i class="fab fa-ros2 fa-2x mb-3"></i>
+                                <h5 class="card-title">ROS2</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
         <hr class="m-0" />
-             <!-- Interests Section -->
-             <section class="resume-section" id="interests">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Interests</h2>
-                    <ul>
-                        <li>Software Development</li>
-                        <li>Robotics</li>
-                        <li>Artificial Intelligence</li>
-                    </ul>
+
+        <!-- Involvement & Interests Section -->
+        <section class="resume-section" id="involvement-interests">
+            <div class="resume-section-content">
+                <h2 class="mb-5 text-center">Involvement & Interests</h2>
+                <div class="row">
+                    <div class="col-md-6 mb-4">
+                        <h3 class="mb-3">Campus Involvement</h3>
+                        <ul class="list-group">
+                            <li class="list-group-item">Young Life</li>
+                            <li class="list-group-item">Robotics Club</li>
+                            <li class="list-group-item">Competitive Programming Team</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 mb-4">
+                        <h3 class="mb-3">Interests</h3>
+                        <ul class="list-group">
+                            <li class="list-group-item">Software Development</li>
+                            <li class="list-group-item">Robotics</li>
+                            <li class="list-group-item">Artificial Intelligence</li>
+                        </ul>
+                    </div>
                 </div>
-            </section>
-            <hr class="m-0" />
+            </div>
+        </section>
+        <hr class="m-0" />
         <footer class="footer text-center">
             <div class="container">
                 <p class="m-0">&copy; Walker Todd 2024</p>
             </div>
         </footer>
+
         <!-- Bootstrap core JS -->
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz4fnFO9gybU5m6gZ9h6rW3FCTBvM6b6C76n7aM5qdW9swSVt6dD1G5XsM" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-4z9K4p1TqH0fNTVht91GpECp8YF0+/82H0lMy4WUmBTVRSbgW4anEtg+/kwc+0Gn" crossorigin="anonymous"></script>
