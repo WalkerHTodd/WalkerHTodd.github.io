@@ -4205,7 +4205,9 @@ textarea.form-control-lg {
 }
 
 .card-body {
-  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   min-height: 250px; /* Adjust to ensure cards are uniform */
 
   padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
