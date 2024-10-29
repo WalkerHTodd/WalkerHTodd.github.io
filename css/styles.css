@@ -4205,30 +4205,23 @@ textarea.form-control-lg {
 }
 
 .card-body {
-  flex: 1 1 auto;
-  min-height: 250px;
-  max-height: 350px; /* Optional max height for consistency */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 250px; /* Adjust to ensure cards are uniform */
+
   padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
   color: var(--bs-card-color);
 }
 
-.card-body {
-
-}
-
 .card-title {
-  margin-bottom: 1rem; /* or var(--bs-card-title-spacer-y) */
+  margin-bottom: var(--bs-card-title-spacer-y);
 }
 
 .card-subtitle {
-  margin-top: -0.5rem;
+  margin-top: calc(-0.5 * var(--bs-card-title-spacer-y));
   margin-bottom: 0;
 }
-
-.card-text {
-  padding-bottom: 1rem; /* or adjust based on layout needs */
-}
-
 
 .card-text:last-child {
   margin-bottom: 0;
